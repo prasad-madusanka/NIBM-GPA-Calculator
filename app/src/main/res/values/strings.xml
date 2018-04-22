@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">NIBM GPA Calculator</string>
+    <string name="nibm">NIBM</string>
+    <string name="gc">Grade Point Average Calculator</string>
+    <string name="go">Next</string>
+    <string name="dcsd_dse">DCSD/DSE 17</string>
+    <string name="dcsd15">DCSD 15</string>
+    <string name="dcsd161">DCSD 16.1</string>
+    <string name="dcsd162">DCSD 16.2</string>
+    <string name="hdc162">HDCBIS 16.2</string>
+    <string name="hdc171">HDCBIS 17.1</string>
+
+    <string name="adbm">ADBM</string>
+    <string name="hdb">HDBM</string>
+
+    <string name="dcsd_intro">ICS</string>
+    <string name="dcsd_qtc">QTC</string>
+    <string name="dcsd_c">DSCL</string>
+    <string name="dcsd_dbms">DBMS</string>
+    <string name="dcsd_ct">CT</string>
+    <string name="dcsd_cpp">OOPC++</string>
+    <string name="dcsd_bis">BIS</string>
+    <string name="dcsd_sad">SAD</string>
+    <string name="dcsd_vb">VB.Net</string>
+    <string name="dcsd_ca">CA</string>
+    <string name="dcsd_ss">SS</string>
+    <string name="dcsd_it">IT</string>
+    <string name="dcsd_java">Java</string>
+    <string name="dcsd_sdp">SDP</string>
+
+    <string name="dcsd_cs">C#.Net</string>
+
+    <string name="dcsd_pf">PF</string>
+    <string name="dcsd_oop1">OOP-1</string>
+    <string name="dcsd_oop2">OOP-2</string>
+    <string name="dcsd_winad">Windows AD</string>
+    <string name="dcsd_can">CAN</string>
+    <string name="dcsd_webad">Web AD</string>
+    <string name="csdp">CSDP</string>
+
+    <string name="dcsd_co">CO/CT</string>
+    <string name="dcsd_gui">GUI AD</string>
+    <string name="sad_se">SAD/SE</string>
+    <string name="cn_can">CN/CAN</string>
+    <string name="dcsd_sep_sdp">SDDP/SEP</string>
+
+    <string name="mp">MP</string>
+    <string name="dsa">DSA</string>
+    <string name="se">SE</string>
+    <string name="cn">CN</string>
+    <string name="adms">ADMS</string>
+    <string name="ca">CA</string>
+    <string name="ead">EAD</string>
+    <string name="sqa">SQA</string>
+    <string name="dwdm">DW DM</string>
+    <string name="mad">MAD</string>
+    <string name="bsit">BSIT</string>
+    <string name="or">OR</string>
+    <string name="sdp">SDP</string>
+    <string name="it">IT</string>
+    
+    <string name="pm">PM</string>
+    <string name="bm">BM IT</string>
+    <string name="fa">FA</string>
+    <string name="be">BE</string>
+    <string name="pe1">PE-I</string>
+    <string name="ob">OB</string>
+    <string name="ma">MA</string>
+    <string name="bs">BS</string>
+    <string name="pe2">PE-II</string>
+    <string name="bae">BEE</string>
+
+    <string name="mm">MM</string>
+    <string name="hrm">HRM</string>
+    <string name="le">LE</string>
+    <string name="fm">FM</string>
+    <string name="em">EM</string>
+    <string name="om">OM</string>
+    <string name="lm">LM</string>
+    <string name="qm">QM</string>
+    <string name="cpd">CPD</string>
+    <string name="sm">SM</string>
+    <string name="bpit">BP IT</string>
+
+    <string name="sub1">Subject 1</string>
+    <string name="sub2">Subject 2</string>
+    <string name="sub3">Subject 3</string>
+    <string name="sub4">Subject 4</string>
+    <string name="sub5">Subject 5</string>
+    <string name="sub6">Subject 6</string>
+    <string name="sub7">Subject 7</string>
+    <string name="sub8">Subject 8</string>
+    <string name="sub9">Subject 9</string>
+    <string name="sub10">Subject 10</string>
+    <string name="sub11">Subject 11</string>
+    <string name="sub12">Subject 12</string>
+    <string name="sub13">Subject 13</string>
+    <string name="sub14">Subject 14</string>
+    <string name="sub15">Subject 15</string>
+    <string name="sub16">Subject 16</string>
+    <string name="sub17">Subject 17</string>
+    <string name="sub18">Subject 18</string>
+    <string name="sub19">Subject 19</string>
+    <string name="sub20">Subject 20</string>
+
+
+    <string name="rom">Range of Marks</string>
+    <string name="grade">Grade</string>
+    <string name="gp">Grade Point</string>
+
+    <string name="Aplus_from">85-100</string>
+    <string name="A_from">70-84</string>
+    <string name="Aminus_from">65-69</string>
+    <string name="Bplus_from">60-64</string>
+    <string name="B_from">55-59</string>
+    <string name="Bmines_from">50-54</string>
+    <string name="Cplus_from">45-49</string>
+    <string name="C_from">40-44</string>
+    <string name="Cmines_from">35-39</string>
+    <string name="Dplus_from">30-34</string>
+    <string name="D_from">25-29</string>
+    <string name="E_from">00-24</string>
+
+    <string name="Aplus">A+</string>
+    <string name="A">A</string>
+    <string name="Aminus">A-</string>
+    <string name="Bplus">B+</string>
+    <string name="B">B</string>
+    <string name="Bmines">B-</string>
+    <string name="Cplus">C+</string>
+    <string name="C">C</string>
+    <string name="Cmines">C-</string>
+    <string name="Dplus">D+</string>
+    <string name="D">D</string>
+    <string name="E">E</string>
+
+    <string name="Aplus_gpa">4.0</string>
+    <string name="A_gpa">4.0</string>
+    <string name="Aminus_gpa">3.7</string>
+    <string name="Bplus_gpa">3.3</string>
+    <string name="B_gpa">3.0</string>
+    <string name="Bmines_gpa">2.7</string>
+    <string name="Cplus_gpa">2.3</string>
+    <string name="C_gpa">2.0</string>
+    <string name="Cmines_gpa">1.7</string>
+    <string name="Dplus_gpa">1.3</string>
+    <string name="D_gpa">1.0</string>
+    <string name="E_gpa">0.0</string>
+
+
+
+    <string name="passLimit">GPA to Pass</string>
+    <string name="classLimit">GPA for a Distinction</string>
+    <string name="customCondition">Min. GPA for Pass, 0.1 Max. GPA for Distinction 3.9, Max. Decimals 2</string>
+
+    <string name="calculate">Calculate</string>
+    <string name="cutom_credit">Custom credit</string>
+    <string name="computing">Faculty of Computing</string>
+    <string name="management">Faculty of Management</string>
+    <string name="custom">Custom Subjects</string>
+    <string name="attendance">Attendance</string>
+    <string name="chk_attendance">Check</string>
+    <string name="note1">If credits change check the \"Custom credit\" checkbox and set credits</string>
+
+    <string name="contact">Contact Designer and the Developer of NIBM GPA Calculator</string>
+    <string name="unOfficial">This is an unofficial GPA calculator</string>
+</resources>
+

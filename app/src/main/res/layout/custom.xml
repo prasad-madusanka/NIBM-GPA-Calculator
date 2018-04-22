@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/calculateLayout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/tableMasterLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="ScrollViewSize">
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlHardcoded">
+
+                <TableRow
+                    android:id="@+id/row1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/sub1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub1"
+                        android:textSize="14sp" />
+
+                    <Spinner
+                        android:id="@+id/sr1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/sub2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub2" />
+
+                    <Spinner
+                        android:id="@+id/sr2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/sub3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub3" />
+
+                    <Spinner
+                        android:id="@+id/sr3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/sub4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub4" />
+
+                    <Spinner
+                        android:id="@+id/sr4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/sub5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub5" />
+
+                    <Spinner
+                        android:id="@+id/sr5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/sub6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub6" />
+
+                    <Spinner
+                        android:id="@+id/sr6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/sub7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub7" />
+
+                    <Spinner
+                        android:id="@+id/sr7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/sub8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub8" />
+
+                    <Spinner
+                        android:id="@+id/sr8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/sub9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub9" />
+
+                    <Spinner
+                        android:id="@+id/sr9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/sub10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub10" />
+
+                    <Spinner
+                        android:id="@+id/sr10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/sub11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub11" />
+
+                    <Spinner
+                        android:id="@+id/sr11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/sub12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub12" />
+
+                    <Spinner
+                        android:id="@+id/sr12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/sub13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub13" />
+
+                    <Spinner
+                        android:id="@+id/sr13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/sub14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub14" />
+
+                    <Spinner
+                        android:id="@+id/sr14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/sub15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub15" />
+
+                    <Spinner
+                        android:id="@+id/sr15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/sub16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub16" />
+
+                    <Spinner
+                        android:id="@+id/sr16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/sub17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub17" />
+
+                    <Spinner
+                        android:id="@+id/sr17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row18"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="TooManyViews">
+
+                    <TextView
+                        android:id="@+id/sub18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub18" />
+
+                    <Spinner
+                        android:id="@+id/sr18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/sub19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub19"
+                        android:textSize="14sp" />
+
+                    <Spinner
+                        android:id="@+id/sr19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded,TooManyViews" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/sub20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/sub20" />
+
+                    <Spinner
+                        android:id="@+id/sr20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/grades"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Spinner
+                        android:id="@+id/credit20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:entries="@array/credits"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/tableLayoutLimits"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+                tools:ignore="RtlHardcoded">
+
+                <TableRow
+                    android:id="@+id/limitRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="UselessParent"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="8dp">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/passLimit" />
+
+                    <EditText
+                        android:id="@+id/passLimit"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:backgroundTint="@android:color/black"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="3.0"
+                        android:inputType="numberDecimal"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        tools:ignore="HardcodedText,LabelFor" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/limitRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/classLimit" />
+
+                    <EditText
+                        android:id="@+id/classLimit"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:backgroundTint="@android:color/black"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="3.75"
+                        android:inputType="numberDecimal"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        tools:ignore="HardcodedText,LabelFor" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/conditionLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tableLayoutLimits">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:id="@+id/warningText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/customCondition"
+                        android:textStyle="bold" />
+                </TableRow>
+
+            </TableLayout>
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/calculateLayout"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:background="@android:color/holo_green_light"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1">
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/white"
+            android:text="@string/calculate"
+            android:textColor="@android:color/black"
+            tools:ignore="InefficientWeight,RtlHardcoded" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

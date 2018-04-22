@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/NIBMGPA_yellow</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="seekBarTheme" parent="Widget.AppCompat.SeekBar.Discrete">
+        <item name="android:colorAccent">@color/seekBarThumb</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="tickMark">@color/titleBar</item>
+    </style>
+
+</resources>

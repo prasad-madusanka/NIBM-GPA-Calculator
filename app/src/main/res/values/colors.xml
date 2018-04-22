@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="NIBMGPA">#333333</color>
+    <color name="titleBar">#01aaff</color>
+
+    <color name="seekBarThumb">#2ac400</color>
+    <color name="DiscreteSeekBar">#5c5c5c</color>
+    <color name="NIBMGPA_yellow">#fecd36</color>
+    <color name="NIBMGPA_transparent_black">#64000000</color>
+    <color name="gpa1">#03c8ef</color>
+    <color name="gpa2">#ffbb00</color>
+    <color name="gpa3">#fa2f39</color>
+</resources>

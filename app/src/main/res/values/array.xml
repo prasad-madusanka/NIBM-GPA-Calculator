@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="grades">
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>C-</item>
+        <item>D+</item>
+        <item>D</item>
+        <item>E</item>
+    </string-array>
+
+    <string-array name="credits">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="customFields">
+        <item>4 Subjects</item>
+        <item>5 Subjects</item>
+        <item>6 Subjects</item>
+        <item>7 Subjects</item>
+        <item>8 Subjects</item>
+        <item>9 Subjects</item>
+        <item>10 Subjects</item>
+        <item>11 Subjects</item>
+        <item>12 Subjects</item>
+        <item>13 Subjects</item>
+        <item>14 Subjects</item>
+        <item>15 Subjects</item>
+        <item>16 Subjects</item>
+        <item>17 Subjects</item>
+        <item>18 Subjects</item>
+        <item>19 Subjects</item>
+        <item>20 Subjects</item>
+    </string-array>
+
+
+</resources>

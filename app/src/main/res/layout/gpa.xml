@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <com.hookedonplay.decoviewlib.DecoView xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/dynamicArcView"
+        android:layout_width="311dp"
+        android:layout_height="380dp"
+        custom:dv_lineWidth="26dp"
+        custom:layout_constraintBottom_toBottomOf="parent"
+        custom:layout_constraintLeft_toLeftOf="parent"
+        custom:layout_constraintRight_toRightOf="parent"
+        custom:layout_constraintTop_toTopOf="parent"
+        custom:layout_constraintVertical_bias="0.3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/currentGPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="107dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/dynamicArcView"
+        app:layout_constraintRight_toRightOf="@+id/dynamicArcView"
+        app:layout_constraintTop_toTopOf="@+id/dynamicArcView"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/curentPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="@+id/dynamicArcView"
+        app:layout_constraintRight_toRightOf="@+id/dynamicArcView"
+        app:layout_constraintTop_toBottomOf="@+id/currentGPA" />
+
+    <TextView
+        android:id="@+id/GPA1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="@+id/dynamicArcView"
+        app:layout_constraintRight_toRightOf="@+id/dynamicArcView"
+        app:layout_constraintTop_toBottomOf="@+id/curentPercentage" />
+
+    <TextView
+        android:id="@+id/Percentage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="@+id/dynamicArcView"
+        app:layout_constraintRight_toRightOf="@+id/dynamicArcView"
+        app:layout_constraintTop_toBottomOf="@+id/GPA1" />
+
+    <TextView
+        android:id="@+id/GPA2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="@+id/dynamicArcView"
+        app:layout_constraintRight_toRightOf="@+id/dynamicArcView"
+        app:layout_constraintTop_toBottomOf="@+id/Percentage1" />
+
+    <TextView
+        android:id="@+id/Percentage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/dynamicArcView"
+        app:layout_constraintRight_toRightOf="@+id/dynamicArcView"
+        app:layout_constraintTop_toBottomOf="@+id/GPA2" />
+
+    <ImageView
+        android:id="@+id/imgLast"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginRight="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="ContentDescription,MissingConstraints,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/imgMid"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/imgFirst"
+        app:layout_constraintRight_toLeftOf="@+id/imgLast"
+        tools:ignore="ContentDescription,MissingConstraints,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/imgFirst"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@+id/imgFirst"
+        app:layout_constraintRight_toRightOf="@+id/imgFirst"
+        app:layout_constraintTop_toBottomOf="@+id/imgFirst" />
+
+    <TextView
+        android:id="@+id/mid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@+id/imgMid"
+        app:layout_constraintRight_toRightOf="@+id/imgMid"
+        app:layout_constraintTop_toBottomOf="@+id/imgMid"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/last"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@+id/imgLast"
+        app:layout_constraintRight_toRightOf="@+id/imgLast"
+        app:layout_constraintTop_toBottomOf="@+id/imgLast"
+        tools:ignore="RtlHardcoded" />
+
+</android.support.constraint.ConstraintLayout>
